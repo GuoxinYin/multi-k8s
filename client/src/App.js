@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <header className="App-header">
+        <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <a
             className="App-link"
@@ -17,10 +17,10 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React 3
+            Learn React 3 kubernetes!
           </a>
           
-        </header> */}
+        </header>
         <div>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
